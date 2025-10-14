@@ -1,5 +1,5 @@
 {
-  "name": "vue3-compare-image",
+  "name": "@rsiqueira/vue3-compare-image",
   "type": "module",
   "version": "1.2.5",
   "private": false,
@@ -36,6 +36,12 @@
       "types": "./dist/index.d.ts",
       "require": "./dist/index.js",
       "import": "./dist/index.mjs"
+    },
+    "./client": {
+      "types": "./client.d.ts",
+      "import": {
+        "default": "./client.d.ts"
+      }
     }
   },
   "main": "./dist/index.js",
